@@ -85,7 +85,7 @@ const Index = (props: Props) => {
           <div className="md:hidden">
             <button
               type="button"
-              className="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-full border font-medium bg-transparent text-white shadow-sm align-middle hover:bg-gray-50 transition-all text-sm"
+              className="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-full border font-medium bg-transparent text-white shadow-sm align-middle transition-all text-sm"
               data-hs-collapse="#navbar-collapse-with-animation"
               aria-controls="navbar-collapse-with-animation"u
               aria-label="Toggle navigation"
