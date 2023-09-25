@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <header className="bg-[#0F2B48] h-screen overflow-hidden">
        <div className="relative w-full h-screen flex">
-      <Image src="/assets/mapbg.png" alt="" width={720} height={517} className="absolute inset-0 lg:ml-[28rem]"/>
+      <Image src="/assets/mapbg.png" alt="" width={880} height={517} className="absolute inset-0 lg:ml-[28rem]"/>
       <div className="container px-6 py-4 mx-auto z-[1]">
         <div className="items-center lg:flex">
           <div className="w-full lg:w-1/2">
