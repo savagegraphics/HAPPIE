@@ -9,9 +9,7 @@ function Navbar() {
   };
 
   return (
-    <header className="bg-[#0F2B48] h-screen overflow-hidden">
-       <div className="relative w-full h-screen flex">
-      <Image src="/assets/mapbg.png" alt="" width={880} height={517} className="absolute inset-0 lg:ml-[28rem]"/>
+    <header className="bg-[#0F2B48] h-screen overflow-hidden"
       <div className="container px-6 py-4 mx-auto z-[1]">
         <div className="items-center lg:flex">
           <div className="w-full lg:w-1/2">
@@ -31,6 +29,9 @@ function Navbar() {
           </div>
 
           <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
+            >
+       <div className="relative w-full h-screen flex">
+      <Image src="/assets/mapbg.png" alt="" width={880} height={517} className="absolute inset-0 lg:ml-[28rem]"/>
             <img
               className="w-full h-full lg:max-w-3xl"
               src='/assets/maplink.png'
