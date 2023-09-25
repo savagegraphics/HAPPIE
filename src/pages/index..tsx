@@ -87,7 +87,7 @@ const Index = (props: Props) => {
               type="button"
               className="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-full border font-medium bg-transparent text-white shadow-sm align-middle transition-all text-sm"
               data-hs-collapse="#navbar-collapse-with-animation"
-              aria-controls="navbar-collapse-with-animation"u
+              aria-controls="navbar-collapse-with-animation"
               aria-label="Toggle navigation"
               onClick={toggleMenu}
             > <svg className="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
