@@ -9,8 +9,8 @@ function Navbar() {
   };
 
   return (
-    <header className="bg-[#0F2B48] h-screen">
-       <div className="relative w-full h-screen flex">
+    <header className="bg-[#0F2B48] w-full lg:h-screen h-[38rem]">
+       <div className="relative flex">
       <div className="container px-6 py-4 mx-auto z-[1]">
         <div className="items-center lg:flex">
           <div className="w-full lg:w-1/2">
