@@ -77,25 +77,18 @@ const Index = (props: Props) => {
    
     <div className="bg-[#0F2B48]">
     <header className="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full text-sm">
-      <nav className="mt-6 relative max-w-7xl w-full bg-transparent rounded-[36px] mx-2 py-3 px-4 md:flex md:items-center md:justify-between md:py-0 md:px-6 lg:px-8 xl:mx-auto" aria-label="Global">
+      <nav className="mt-2 relative max-w-7xl w-full bg-transparent rounded-[36px] mx-2 py-3 px-4 md:flex md:items-center md:justify-between md:py-0 md:px-6 lg:px-8 xl:mx-auto" aria-label="Global">
         <div className="flex items-center justify-between">
           <Link className="flex-none text-xl font-semibold" href="#" aria-label="Brand">
             <Image src="/assets/Happie.png" alt="" width={80} height={80} />
           </Link>
           <div className="md:hidden">
-<<<<<<< HEAD
-          <button
-=======
-            <button
+              <button
               type="button"
               className="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-full border font-medium bg-transparent text-white shadow-sm align-middle transition-all text-sm"
               data-hs-collapse="#navbar-collapse-with-animation"
               aria-controls="navbar-collapse-with-animation"
-              aria-label="Toggle navigation"
->>>>>>> b5cbbf97e1fbfd2873eb057d9342abbe5effdcc6
               onClick={toggleMenu}
-              type="button"
-              className='text-white hover:text-gray-400'
 			  aria-label="toggle menu"
             >
               {!isOpen ? (

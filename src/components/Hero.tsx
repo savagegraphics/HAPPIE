@@ -9,9 +9,8 @@ function Navbar() {
   };
 
   return (
-    <header className="bg-[#0F2B48] h-screen overflow-hidden">
+    <header className="bg-[#0F2B48] h-screen">
        <div className="relative w-full h-screen flex">
-      <Image src="/assets/mapbg.png" alt="" width={880} height={517} className="absolute inset-0 lg:ml-[28rem]"/>
       <div className="container px-6 py-4 mx-auto z-[1]">
         <div className="items-center lg:flex">
           <div className="w-full lg:w-1/2">
@@ -31,11 +30,26 @@ function Navbar() {
           </div>
 
           <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-            <img
-              className="w-full h-full lg:max-w-3xl"
-              src='/assets/maplink.png'
-              alt="Catalogue-pana.svg"
-            />
+               <div>
+      <div className="relative flex items-center justify-center w-full mt-6 lg:mt-0">
+    <Image
+      className="w-full h-full"
+      src='/assets/mapbg.png'
+      alt="Catalogue-pana.svg"
+      height={300}
+      width={400}
+    />
+
+    {/* Image to be positioned on top */}
+    <Image
+      className="absolute top-0 left-0 lg:w-[28rem] w-80 h-auto"
+      src='/assets/maplink.png'
+      alt="Overlay Image"
+      height={200}
+      width={200}
+    />
+  </div>
+        </div>
           </div>
         </div>
       </div>
