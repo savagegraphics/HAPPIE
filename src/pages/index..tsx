@@ -83,7 +83,16 @@ const Index = (props: Props) => {
             <Image src="/assets/Happie.png" alt="" width={80} height={80} />
           </Link>
           <div className="md:hidden">
+<<<<<<< HEAD
           <button
+=======
+            <button
+              type="button"
+              className="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-full border font-medium bg-transparent text-white shadow-sm align-middle transition-all text-sm"
+              data-hs-collapse="#navbar-collapse-with-animation"
+              aria-controls="navbar-collapse-with-animation"
+              aria-label="Toggle navigation"
+>>>>>>> b5cbbf97e1fbfd2873eb057d9342abbe5effdcc6
               onClick={toggleMenu}
               type="button"
               className='text-white hover:text-gray-400'
