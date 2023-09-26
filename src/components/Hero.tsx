@@ -15,12 +15,19 @@ function Navbar() {
         <div className="items-center lg:flex">
           <div className="w-full lg:w-1/2">
             <div className="lg:max-w-lg">
-              <h1 className="text-white lg:text-5xl md:text-4xl text-3xl font-extrabold font-Inter">
+            <Image
+      className="absolute top-[-6rem] left-[4rem] lg:w-[28rem] w-80 h-auto z-[-6]"
+      src='/assets/mapbg.png'
+      alt="Overlay Image"
+      height={200}
+      width={200}
+    />
+              <h1 className="z-[1] text-white lg:text-5xl md:text-4xl text-3xl font-extrabold font-Inter">
               Send and Receive <br /> items from your {' '} <br />
                 <span className="text-blue-500 ">doorstep </span>
               </h1>
 
-              <p className="mt-4 text-white text-opacity-70 text-base font-bold font-Inter">
+              <p className="z-[1] mt-4 text-white text-opacity-70 text-base font-bold font-Inter">
               Welcome to the Good life! Use Happie to send <br /> items to your 
               customers, friends, and family in <br /> Lagos, Abuja, London, Ghana and more.
               </p>
